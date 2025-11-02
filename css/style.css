@@ -1,0 +1,9 @@
+/* Stili minimi per migliorare la UX */
+#timerDisplay {
+  letter-spacing: 1px;
+  font-variant-numeric: tabular-nums;
+}
+
+.btn:disabled {
+  cursor: not-allowed;
+}
