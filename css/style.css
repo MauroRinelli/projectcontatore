@@ -7,3 +7,100 @@
 .btn:disabled {
   cursor: not-allowed;
 }
+.navbar.sticky-top {
+  z-index: 1030; /* garantisce che stia sopra altri elementi */
+  border-bottom: 2px solid #f0f0f0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+/* === SFONDO GENERALE === */
+body {
+  background-color: #000;       /* nero profondo */
+  color: #fff;                  /* testo bianco */
+}
+
+/* === NAVBAR === */
+.navbar {
+  background-color: #000 !important; /* stessa base nera */
+  border-bottom: 3px solid #FFD700;  /* bordo giallo oro */
+}
+
+/* === LOGO E TESTO NAVBAR === */
+.navbar .navbar-brand span {
+  color: #FFD700 !important;   /* scritta Solespress gialla */
+}
+
+/* === CARD COUNTDOWN + CALCOLATRICE === */
+.card {
+  background-color: #111;      /* nero leggermente più chiaro */
+  border: 2px solid #FFD700;   /* bordo giallo come richiesto */
+  color: #fff;
+  transition: all 0.3s ease;
+}
+
+.card:hover {
+  box-shadow: 0 0 20px rgba(255, 215, 0, 0.4);
+}
+
+/* === TESTO INTERNI === */
+.form-label, .form-text, small, p, h1, h2, h3 {
+  color: #fff !important;
+}
+
+/* === INPUT E SELECT === */
+.form-control, .form-select {
+  background-color: #222;
+  color: #fff;
+  border: 1px solid #FFD700;
+}
+
+.form-control:focus, .form-select:focus {
+  border-color: #FFD700;
+  box-shadow: 0 0 5px rgba(255, 215, 0, 0.6);
+}
+
+/* === BOTTONI === */
+.btn-primary {
+  background-color: #FFD700;
+  border: none;
+  color: #000;
+  font-weight: 600;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #000;
+  font-weight: 600;
+}
+
+.btn-outline-secondary {
+  color: #FFD700;
+  border-color: #FFD700;
+}
+
+.btn-outline-secondary:hover {
+  background-color: #FFD700;
+  color: #000;
+}
+
+.btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* === DISPLAY NUMERI === */
+.display-5 {
+  color: #FFD700;
+  text-shadow: 0 0 5px rgba(255, 215, 0, 0.5);
+}
+
+/* === RIGA DELLA TASTIERA === */
+.btn {
+  min-height: 44px;
+  border-radius: 8px;
+}
+
+/* === HOVER generale === */
+button:hover, .btn:hover {
+  transform: translateY(-2px);
+  transition: 0.2s;
+}
